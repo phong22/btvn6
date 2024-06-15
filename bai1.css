@@ -1,0 +1,46 @@
+body,*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header {
+    height: 200px ;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+.navigation {
+    height: 70px;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+.body {
+    display: flex;
+    height: 600px;
+    gap: 20px;
+}
+
+.body .sidebar {
+    width: 20%;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+.body .content {
+    width: 80%;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+.footer {
+    height: 200px;
+    background-color: lightblue;
+    border-radius: 20px;
+}

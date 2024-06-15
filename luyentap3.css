@@ -1,0 +1,248 @@
+body,*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .header{
+    display: flex;
+    height:100px ;
+    align-items: center;
+}
+
+
+.container .icon .title{
+    width: fit-content;
+    height: fit-content;
+    background-color: pink;
+    font-size: xx-large;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.container .menu{
+    display: flex;
+    width: 40%;
+    margin-left: auto;
+}
+
+.container .menu .item{
+    width: 25%;
+    text-align: center;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+}
+
+.container .menu .item:hover{
+    background-color:lightgrey;
+
+}
+
+.container .body{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .banner{
+    margin-bottom: 70px;
+}
+
+.img{
+    height: 1170px;
+    background-image: url(./img/img.avif);
+    margin-inline: 100px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.img .item{
+    position: absolute;
+    top: 42%;  
+    left: 20px;
+    color: white;
+}
+
+.item .p1{
+    font-size: 45px;
+}
+
+.item .p2{
+    font-size: 70px;
+}
+
+.item .button1{
+    font-size: 20px;
+    height: 55px;
+    width: 150px;
+    background-color: pink;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.item .button1:hover{
+    background-color: lightgrey;
+}
+
+.container .body{
+    width: 100%;
+}
+
+.container .body .noidung{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container .body .noidung .content{
+    margin-inline: 90px;
+}
+
+.body .menu1{
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.body .menu1 .item{
+    height: 490px;
+    width: 28%;
+    box-shadow:2px 2px 10px black ;
+}
+
+.body .menu1 .item .gioithieu{
+    margin-left: 20px;
+}
+
+.body .menu1 .item img{
+    width: 100%;
+    height: 60%;
+}
+
+.menu1 .item .button2{
+    background-color: pink;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 95%;
+    height: 40px ;
+    border: none;
+}
+
+.menu1 .item .button2:hover{
+    background-color: lightgrey;
+}
+
+.container .body .noidung2{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.container .body .noidung2 .content1{
+    margin-inline: 90px;
+}
+
+.container .body .menu2 {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.container .body .menu2 .item{
+    width: 28%;
+    height: ;
+}
+
+.container .body .menu2 .item img{
+    width: 100%;
+}
+
+.container .body .menu2 .item .gioithieu1{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.container .body .menu2 .item .gioithieu1 .button3{
+    background-color: pink;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.container .body .menu2 .item .gioithieu1 .button3:hover{
+    background-color: lightgrey;
+}
+
+.container .body .noidung2 .content2{
+    margin-inline: 90px;
+}
+
+.container .body .dangky{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: 90px;
+    margin-top: 40px;
+}
+
+.container .body .dangky .box{
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container .body .dangky .button4{
+    height: 30px;
+    background-color: pink;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container .body .dangky .button4:hover{
+    background-color: lightgrey;
+}
+
+.container .footer{
+    background-color: pink;
+    margin-inline: 80px;
+    margin-top: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container .footer .button5{
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    padding-block: 10px;
+    padding-inline: 20px;
+    cursor: pointer;
+}
+
+.container .footer .button5:hover{
+    background-color: lightgrey;
+}
+
+.icon{
+    cursor: pointer;  
+}
+
+i:hover{
+    opacity: 50%;
+}
+
+.container .body .menu2 .item img:hover{
+    opacity: 50%;
+}
